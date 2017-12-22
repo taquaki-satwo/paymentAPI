@@ -13,8 +13,7 @@ function onBuyClicked() {
     supportedMethods: ['basic-card'],
     data: {
       supportedNetworks: [
-        'visa', 'mastercard', 'amex', 'discover',
-        'diners', 'jcb', 'unionpay'
+        'visa', 'mastercard', 'amex', 'discover', 'diners', 'jcb', 'unionpay'
       ]
     }
   }];
@@ -37,6 +36,5 @@ function onBuyClicked() {
   };
 
   var request = new PaymentRequest(supportedInstruments, details);
-
   request.show();
 }
