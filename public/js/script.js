@@ -1,6 +1,6 @@
 window.onload = function () {
   var $btn = document.getElementById('btn');
-  btn.addEventListener('click', onBuyClicked, false);
+  $btn.addEventListener('click', onBuyClicked, false);
 }
 
 function onBuyClicked() {
